@@ -1,0 +1,11 @@
+// EXPLANATION
+This service communicates with inventory service to check if the products
+ requested via post request from postman are in stock or not.
+If the products requested are in stock, it returns string of order placed.
+And if the products are not in stock, it'll throw an exception and a 
+message in console that product is not in stock.  
+
+
+//STEPS
+Change username and password for sql in application.propperties
+
